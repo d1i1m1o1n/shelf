@@ -10,7 +10,6 @@ $(document).ready(function() {
                 var $li = $(this).closest('li');
                 //если не является активным
                 if (!$($li).hasClass('active')) {
-                    //
                     if (!$($li).parents('li').hasClass('active')) {
                         $('.catalog li').removeClass('active').find('ul').slideUp();
                     }
