@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    //Клик по ссылке
     $('.catalog a').on({
         click : function(e) {
             e.preventDefault();
